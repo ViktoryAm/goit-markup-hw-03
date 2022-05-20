@@ -1,0 +1,219 @@
+:root {
+    --main-font: 'Roboto', 'Raleway', sans-serif;
+    --accent-color-nav: #2196F3;
+    --description-color: #757575;
+    --section-title-color: #212121;
+    --main-background-color: #2F303A;
+}
+
+/*Общий сброс*/
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/*Глобальный стиль*/
+
+body {
+    font-family: var(--main-font)
+}
+
+/*Компоненты*/
+
+.description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--description-color);
+}
+.section-titel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+/*Logo*/
+
+.logo {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    
+        color: #2196F3;
+}
+.logo-black {
+    color: #000000;
+}
+.logo-white {
+    color: #FFFFFF;
+}
+
+/*Навигационные элементы*/
+
+.menu-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color-nav);
+}
+
+.menu .menu-link.current {
+    color: var(--accent-color-nav);
+}
+
+/*Контакты*/
+
+.mail-contact,
+.phone-contact {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    
+        color: #757575;
+}
+.mail-contact:hover,
+.mail-contact:focus {
+    color: #2196F3;
+}
+.phone-contact:hover,
+.phone-contact:focus {
+    color: #2196F3;
+}
+
+/*Hero*/
+
+.hero {
+    background-color: var(--main-background-color);
+}
+
+.hero-titel {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+
+        color: #FFFFFF;       
+}
+
+.modal-btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        color: #FFFFFF;
+        background-color: #2196F3;
+        cursor: pointer; 
+               
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #188CE8;
+    
+}
+
+/*Особенности*/
+
+.features-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+
+/*Наша команда*/
+
+.name-member {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: var(--main-background-color);
+}
+
+/*Контактные данные*/
+
+.address {
+    font-style: normal;
+}
+.map-address-link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
+.mail-address-link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.tel-address-link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+            
+        color: rgba(255, 255, 255, 0.6);
+
+}
+
+/*=======ПОРТФОЛИО=======*/
+
+/* Навигационные кнопки*/
+
+.portfolio-button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+        background-color: rgba(245, 244, 250, 1);
+        border: none;
+        cursor: pointer
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+/*Все категории портфолио*/
+
+.img-name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    
+        color: #212121;
+
+}
