@@ -26,6 +26,8 @@ ul, ol {
 img {
     display: block;
 }
+
+
 /*Глобальный стиль*/
 
 body {
@@ -46,8 +48,48 @@ body {
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 0.03em;
 
     color: #212121;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.img {
+    display: block;
+}
+
+/*Контейнер*/
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Контейнер header*/
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-header {
+    border-bottom: 1px solid #ECECEC;;
+}
+
+.navigation .link,
+.header-contacts .link {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /*Logo*/
@@ -58,6 +100,7 @@ body {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        margin-right: 90px;
     
         color: #2196F3;
 }
@@ -69,6 +112,20 @@ body {
 }
 
 /*Навигационные элементы*/
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .menu-link {
         font-weight: 500;
@@ -88,6 +145,15 @@ body {
 }
 
 /*Контакты*/
+
+.header-contacts {
+    display: flex;
+    align-items: center;
+}
+
+.mail-contact{
+    margin-right: 50px;
+}
 
 .mail-contact,
 .phone-contact {
@@ -113,23 +179,42 @@ body {
     background-color: var(--main-background-color);
 }
 
+.hero-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .hero-titel {
+        display: block;
+        width: 700px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+        text-align: center;
 
-        color: #FFFFFF;       
+        color: #FFFFFF; 
+        margin-bottom: 30px;   
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .modal-btn {
+        display: block;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
         color: #FFFFFF;
         background-color: #2196F3;
         cursor: pointer; 
+        border: transparent;
+        padding: 10px 32px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+
                
 }
 .modal-btn:hover,
@@ -139,6 +224,8 @@ body {
 }
 
 /*Особенности*/
+
+
 
 .features-name {
         font-weight: 700;
@@ -152,13 +239,43 @@ body {
 
 /*Наша команда*/
 
+.team {
+    background-color: rgba(245, 244, 250, 1);
+}
+
 .name-member {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        text-align: center;
+        letter-spacing: 0.03em;
     
         color: #212121;
+}
+.team {
+    background-color: #F5F4FA;;
+}
+.team-description {
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list {
+    display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+.team-member {
+    flex-basis: calc((100% - 120px) / 4);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.team-content-wrapper {
+    padding: 30px 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*Footer*/
